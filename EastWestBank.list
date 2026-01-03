@@ -1,0 +1,18 @@
+# East West Bank / Velo by East West Bank
+# 华美银行及 Velo 专用分流规则
+
+# 核心网银及 API 域名（Velo App 必须走这个）
+DOMAIN-SUFFIX,v-bank.com
+DOMAIN-SUFFIX,eastwestbank.com
+DOMAIN-SUFFIX,velobank.com
+
+# 静态资源与 CDN
+DOMAIN-SUFFIX,ewb-cdn.com
+
+# 安全校验与流量监控（部分区域登录时会触发）
+DOMAIN-SUFFIX,mlytics.com
+DOMAIN-SUFFIX,mlytics.ai
+
+# 关键词匹配（补漏）
+DOMAIN-KEYWORD,eastwestbank
+DOMAIN-KEYWORD,velobank
