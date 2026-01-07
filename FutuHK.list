@@ -17,6 +17,7 @@ DOMAIN-SUFFIX,futusecurities.com
 DOMAIN-SUFFIX,futunews.com
 DOMAIN-SUFFIX,futusec.com
 DOMAIN-SUFFIX,ftas.com
+DOMAIN-SUFFIX,futustatic.com
 
 # --- 核心行情与交易 IP (针对香港/腾讯云优化) ---
 IP-CIDR,119.28.37.206/32,no-resolve
